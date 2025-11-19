@@ -1,0 +1,20 @@
+.landing {
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .quick-facts {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0 2rem 0;
+    .fact {
+      background: #fff8f5;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+  }
+}

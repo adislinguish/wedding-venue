@@ -1,0 +1,23 @@
+.gallery {
+  margin: 2rem 0;
+  h2 { margin-bottom: 0.25rem }
+  .muted { color: #6f6a66 }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .tile {
+    background: linear-gradient(90deg,#fff,#f8f4f2);
+    border-radius: 8px;
+    height: 120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#7a6b6b;
+    font-weight:600;
+  }
+}

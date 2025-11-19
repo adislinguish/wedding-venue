@@ -1,0 +1,6 @@
+.packages { 
+  margin: 2rem 0;
+  .cards { display: flex; gap: 1rem; flex-wrap: wrap }
+  .pkg { flex: 1 1 300px }
+  .price { font-weight:700; margin-top:0.5rem }
+}
