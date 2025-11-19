@@ -8,4 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.scss'
 })
-export class GalleryComponent {}
+export class GalleryComponent {
+
+  items: number[] = [1, 2, 3, 4, 5, 6];
+}

@@ -1,9 +1,12 @@
 <section class="gallery">
   <h2>Gallery</h2>
-  <p class="muted">A selection of recent weddings and setups</p>
+  <p class="muted">Moments from recent celebrations — styling options, layouts, and design details.</p>
 
   <div class="grid">
     <!-- simple placeholders for images -->
-    <div class="tile" *ngFor="let i of [1,2,3,4,5,6]">Image {{i}}</div>
+     @for (item of items; track item) {
+      <div class="tile" >Image {{item}}</div>
+     }
+    
   </div>
 </section>
